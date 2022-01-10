@@ -870,16 +870,17 @@ body{
     background: url(../img/tematica-futbol.jpg);
     background-size: 120%;
 }
+.tematicas__lista li:nth-child(6){
+    background: url(../img/tematica-unicorn.jpg) 20px -50px;
+    background-size: 150%;
+}
 .tematicas__lista span{
-    font-size: 36px;
+    font-size: 40px;
     color: white;
-    text-shadow: 1px 1px 3px rgb(75, 75, 75),
-                 1px 1px 10px black,
+    text-shadow: 1px 1px 8px rgb(46, 45, 45),
+                 1px 1px 10px black,    
                  1px 1px 10px black;
     transition: all 0.3s ease-in-out;
-}
-.tematicas__lista li a:hover < .tematicas__lista li{
-    transform: scale(2);
 }
 #servicios{
     width: 100%;
